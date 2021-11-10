@@ -4,23 +4,30 @@ A summary of my thoughts on .NET collections. Probably also an opinionated guide
 
 ## Summary
 
-- Regular collections
-  - Concrete implementations
+### Regular collections
+- Concrete implementations
   - General purpose: `List`, `HashSet`, `Dictionary` etc.
   - Special purpose: `Stack`, `Queue`, `LinkedList` etc.
-- Enumerations
-  - `IEnumerable`, which is basically a wrapper on `IEnumerator`
 - Read-write collection interfaces
   - `IList`, `ISet`, `ICollection` etc.
 - Read-only collection interfaces
   - `IReadOnlyCollection`, `IReadOnlyList`, `IReadOnlyDictionary` etc.
-- Immutable collections
+- Enumerations
+  - `IEnumerable`, which is pretty much a wrapper on `IEnumerator`.
+
+### Immutable collections
+- Implementations
   - `ImmutableDictionary`, `ImmutableArray` etc.
-- Immutable collection interfaces
+- Interfaces
   - `IImmutableDictionary`, `IImmutableList` etc.
-- Thread-safe collections
-  - For concurrency
-  - `ConcurrentBag`, `ConcurrentDictionary` etc.
+
+### Thread-safe collections
+- Implementations
+  - `ConcurrentBag`, `ConcurrentDictionary`, `ConcurrentQueue`, `ConcurrentStack` etc.
+- Interfaces
+  - `IProducerConsumerCollection` (?)
+
+### Extras
 - Non-generic collections
 - Those things from `ObjectModel` namespace
   - `ReadOnlyCollection` etc.
@@ -55,3 +62,4 @@ a, b, c, q, q
 ```
 
 In order to achieve true immutability, one needs the `I?Immutable.*` collections.
+
