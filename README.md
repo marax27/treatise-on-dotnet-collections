@@ -52,3 +52,5 @@ a, b, c
 a, b, c, q
 a, b, c, q, q
 ```
+
+In order to achieve true immutability, one needs the `I?Immutable.*` collections.
