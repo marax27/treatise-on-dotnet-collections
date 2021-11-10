@@ -15,7 +15,11 @@ A summary of my thoughts on .NET collections
   - `IReadOnlyCollection`, `IReadOnlyList`, `IReadOnlyDictionary` etc.
 - Immutable collections
   - `ImmutableDictionary`, `ImmutableArray` etc.
+- Immutable collection interfaces
+  - `IImmutableDictionary`, `IImmutableList` etc.
 - Thread-safe collections
   - For concurrency
   - `ConcurrentBag`, `ConcurrentDictionary` etc.
 - Non-generic collections
+- Those things from `ObjectModel` namespace
+  - `ReadOnlyCollection` etc.
