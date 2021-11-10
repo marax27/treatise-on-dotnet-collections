@@ -1,6 +1,8 @@
 # treatise-on-dotnet-collections
 A summary of my thoughts on .NET collections. Probably also an opinionated guide on how to use them.
 
+## Critical background reading
+- https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/guidelines-for-collections
 
 ## Summary
 
