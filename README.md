@@ -6,7 +6,8 @@ A summary of my thoughts on .NET collections. Probably also an opinionated guide
 
 - Regular collections
   - Concrete implementations
-  - `List`, `HashSet` etc.
+  - General purpose: `List`, `HashSet`, `Dictionary` etc.
+  - Special purpose: `Stack`, `Queue`, `LinkedList` etc.
 - Enumerations
   - `IEnumerable`, which is basically a wrapper on `IEnumerator`
 - Read-write collection interfaces
