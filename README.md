@@ -27,7 +27,7 @@ A summary of my thoughts on .NET collections. Probably also an opinionated guide
 - Interfaces
   - `IProducerConsumerCollection` (?)
 
-## Async
+### Async
 - `AsyncEnumerable`, `AsyncEnumerator`
 
 ### Extras
